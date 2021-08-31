@@ -311,7 +311,7 @@ main > section {
   display: none;  /* OCULTA LA CAJITA MORADA */
 }
 
-.portfolio .purple ul {  /*check*/
+.portfolio .purple ul {  
   display: flex; 
   flex-wrap: wrap;
   margin-top: 20px;
@@ -323,7 +323,6 @@ main > section {
   color: #580aaf;
   background: #d1ffa2;
   font-size: 11px;
-  /* display: inline-block; */
   padding: 2px 8px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -346,7 +345,7 @@ main > section {
   display: block;
 }
 /* 
-SECTION SERVICES 
+SERVICES 
 */
 .grid-container {
   display: grid;
@@ -493,17 +492,17 @@ BLOG
   font-size: 1.3rem;
 }
 
-  .newsletter input {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+.newsletter input {
+   padding-left: 12px;
+   padding-right: 12px;
+}
 
-  .newsletter button {      /*!!!!aqui*/
-    background-color: #6D0AD3;
-    color: #EDE2FA;
-    padding-left: 35px;
-    padding-right: 23px;  
-  }
+.newsletter button {      /*!!!!aqui*/
+  background-color: #6D0AD3;
+  color: #EDE2FA;
+  padding-left: 35px;
+  padding-right: 23px;  
+}
 
 .article.format-2.article-format-2-left > div {
   padding-right: 20px;
@@ -576,7 +575,7 @@ CONTACT
 
 .contact-uo .item-1 input,  /*REVISARR!!!*/
 .contact-down .item-2-a .item-2-b {
-border-radius: 11px;
+  border-radius: 11px;
 }
 
 .contact-up .item-1 input:hover,            /*************** hover */
@@ -604,10 +603,6 @@ border-radius: 11px;
   font-size: 1.1rem;
   cursor: pointer;
 }
-
-.contact {
-  margin-bottom: 50px ;
-}
 /*
 FOOTER
 */
@@ -629,7 +624,7 @@ FOOTER
 
 .footer-up-right ul,
 .footer-down ul {
-display: flex;
+  display: flex;
 }
 
 .footer-end p {

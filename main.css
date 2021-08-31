@@ -545,7 +545,6 @@ CONTACT
   width: 80%;
 }
 
-
 .contact-center .item-3 textarea { 
   width: 59%;
   margin-left: 200px;
@@ -557,7 +556,7 @@ CONTACT
 .contact-up .item-1 input {
   height: 50px;
   padding-left: 10px;
-  padding-right: 110px;
+  padding-right: 100px;
   margin-bottom: 15px;
 }
 

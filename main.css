@@ -311,7 +311,7 @@ main > section {
   display: none;  /* OCULTA LA CAJITA MORADA */
 }
 
-.portfolio .purple ul {  /*check*/
+.portfolio .purple ul {  
   display: flex; 
   flex-wrap: wrap;
   margin-top: 20px;
@@ -323,7 +323,6 @@ main > section {
   color: #580aaf;
   background: #d1ffa2;
   font-size: 11px;
-  /* display: inline-block; */
   padding: 2px 8px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -346,7 +345,7 @@ main > section {
   display: block;
 }
 /* 
-SECTION SERVICES 
+SERVICES 
 */
 .grid-container {
   display: grid;
@@ -545,7 +544,6 @@ CONTACT
   width: 80%;
 }
 
-
 .contact-center .item-3 textarea { 
   width: 59%;
   margin-left: 200px;
@@ -557,7 +555,7 @@ CONTACT
 .contact-up .item-1 input {
   height: 50px;
   padding-left: 10px;
-  padding-right: 110px;
+  padding-right: 100px;
   margin-bottom: 15px;
 }
 
@@ -604,10 +602,6 @@ border-radius: 11px;
   margin-top: 49px;
   font-size: 1.1rem;
   cursor: pointer;
-}
-
-.contact {
-  margin-bottom: 50px ;
 }
 /*
 FOOTER

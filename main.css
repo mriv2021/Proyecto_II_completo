@@ -406,7 +406,7 @@ BLOG
 .blog .blog-wrap {
   display: flex;
 }
-.blog .blog-wrap img{
+.blog .blog-wrap img {
   display: block;
 }
 
@@ -487,14 +487,17 @@ BLOG
 }
 
 .newsletter input,
-.newsletter button {
-  height: 50px;
+.newsletter button {  /*borré  height: 50px; */
   font-size: 1.3rem;
 }
 
 .newsletter input {
    padding-left: 12px;
    padding-right: 12px;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 96c61db36474ea44467df160967e446c047256ba
 }
 
 .newsletter button {      /*!!!!aqui*/
@@ -502,6 +505,11 @@ BLOG
   color: #EDE2FA;
   padding-left: 35px;
   padding-right: 23px;  
+<<<<<<< HEAD
+=======
+  padding-top: 12px;
+  padding-bottom: 12px;
+>>>>>>> 96c61db36474ea44467df160967e446c047256ba
 }
 
 .article.format-2.article-format-2-left > div {
@@ -541,7 +549,7 @@ CONTACT
   display: flex;
   justify-content: space-between;
   padding-left: 200PX;
-  width: 80%;
+  width: 60%;
 }
 
 .contact-center .item-3 textarea { 
@@ -654,3 +662,4 @@ FOOTER
   padding-right: 50px;
   text-align: center;
 }
+

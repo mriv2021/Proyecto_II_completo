@@ -406,7 +406,7 @@ BLOG
 .blog .blog-wrap {
   display: flex;
 }
-.blog .blog-wrap img{
+.blog .blog-wrap img {
   display: block;
 }
 
@@ -487,22 +487,24 @@ BLOG
 }
 
 .newsletter input,
-.newsletter button {
-  height: 50px;
+.newsletter button {  /*borré  height: 50px; */
   font-size: 1.3rem;
 }
 
-  .newsletter input {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+.newsletter input {
+   padding-left: 12px;
+   padding-right: 12px;
+   
+}
 
-  .newsletter button {      /*!!!!aqui*/
-    background-color: #6D0AD3;
-    color: #EDE2FA;
-    padding-left: 35px;
-    padding-right: 23px;  
-  }
+.newsletter button {      /*!!!!aqui*/
+  background-color: #6D0AD3;
+  color: #EDE2FA;
+  padding-left: 35px;
+  padding-right: 23px;  
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 
 .article.format-2.article-format-2-left > div {
   padding-right: 20px;
@@ -541,7 +543,7 @@ CONTACT
   display: flex;
   justify-content: space-between;
   padding-left: 200PX;
-  width: 80%;
+  width: 60%;
 }
 
 .contact-center .item-3 textarea { 
@@ -575,7 +577,7 @@ CONTACT
 
 .contact-uo .item-1 input,  /*REVISARR!!!*/
 .contact-down .item-2-a .item-2-b {
-border-radius: 11px;
+  border-radius: 11px;
 }
 
 .contact-up .item-1 input:hover,            /*************** hover */
@@ -624,7 +626,7 @@ FOOTER
 
 .footer-up-right ul,
 .footer-down ul {
-display: flex;
+  display: flex;
 }
 
 .footer-end p {
@@ -654,3 +656,4 @@ display: flex;
   padding-right: 50px;
   text-align: center;
 }
+
